@@ -8,25 +8,24 @@ const DOMAIN = "yourdomain.com";
 export const BASE_URL = `https://${DOMAIN}`;
 
 export const ABOUT_ME = {
-  name: "Your Name",
-  title: "Full Stack Developer",
+  name: "Ann Njambi",
+  title: "Full Stack Developer & Data Scientist",
   location: "City, India",
-  email: "you@example.com",
+  email: "jahmbyanna@g.com",
   description: [
-    "Hey, there! I'm a developer who loves building products that people actually use. Write a couple of sentences here about who you are, what you do, and what you're currently working on.",
-    "Use this space to talk about your experience, the kinds of problems you enjoy solving, and the technologies you reach for most often.",
-    "Wrap up with what you're excited about right now — side projects, open source, or whatever you're learning next.",
+    "Hey there! I'm a Full Stack Developer and Data Scientist who loves building products that people actually use. I work across the entire stack from clean frontends and solid backends to machine learning models that turn data into real decisions. Right now I'm focused on shipping intelligent, end-to-end applications and deepening my work in MLOps and scalable data systems.",
+   
   ],
-  profileImage: "/placeholder-avatar.png",
-  profileGif: "/placeholder-avatar.png",
+ profileImage: "/placeholder-avatar.png",
+profileGif: "/placeholder-avatar.png",
 };
 
 export const USER_NAMES = {
-  githubUsername: "your-github",
+  githubUsername: "ann-njambi",
   linkedinUsername: "your-linkedin",
   twitterUsername: "your-twitter",
   peerlistUsername: "your-peerlist",
-  instagramUsername: "your-instagram",
+  instagramUsername: "ann_njambii",
   // cal.com username + event slug used by the "schedule a meeting" button
   calUsername: "your-cal-username",
 };
@@ -94,25 +93,25 @@ export const SKILLS = [
 
 export const EXPERIENCE = [
   {
-    company: "Company One",
-    companyLink: "https://example.com/",
+    company: "E&M",
+    companyLink: "https://www.emtechhouse.co.ke/en",
     logo: "/placeholder-logo.png",
     role: "Software Developer",
     period: "Jan 2024 - Present",
-    location: "City, Country",
+    location: "Nairobi, Kenya",
     description:
-      "Describe what you did here — the products you shipped, the impact you had, and the technologies you worked with. Keep it to two or three sentences focused on outcomes.",
+      "I shipped full-stack products end-to-end from first prototype to production platforms — building the core features customers relied on daily. I delivered faster, more reliable releases and improved application performance, giving the business software it could scale on.",
     skills: ["Next.js", "React", "Node.js", "TypeScript", "PostgreSQL"],
   },
   {
-    company: "Company Two",
-    companyLink: "https://example.com/",
+    company: "Afrisol Technologies",
+    companyLink: "https://www.afrisoltech.com/",
     logo: "/placeholder-logo.png",
     role: "Frontend Developer Intern",
     period: "Jun 2023 - Dec 2023",
     location: "Remote",
     description:
-      "Another role summary. Highlight a concrete achievement or two and the stack you used to deliver it.",
+      "Built responsive, reusable UI components for production web apps and translated designs into clean frontend code. Improved performance and fixed bugs, helping the team ship features faster.",
     skills: ["React", "TypeScript", "Tailwind CSS", "REST APIs"],
   },
 ];
@@ -120,30 +119,25 @@ export const EXPERIENCE = [
 export const EDUCATION = [
   {
     degree: "B.Tech in Computer Science Engineering",
-    institution: "Your University",
-    institutionLink: "https://example.com/",
-    period: "2021 - 2025",
-    score: "8.5 CGPA",
+    institution: "Catholic University Of Eastern Africa",
+    institutionLink: "https://cuea.edu/",
+    period: "2023 - 2026",
+    score: "3.5 CGPA",
   },
 ];
 
 export const TESTIMONIALS = [
   {
-    name: "Jane Doe",
-    role: "CTO @ Company",
+    name: "Kago Dorcas",
+    role: "CTO @ E&M",
     content:
-      "Add a short testimonial here. A couple of sentences from someone you've worked with about what it's like to collaborate with you works best.",
+      "She moves comfortably across the whole stack building clean, responsive interfaces in React and Next.js, then backing them with solid Node.js APIs and well-structured PostgreSQL. Reliable, fast, and someone who genuinely cares about the outcome.",
   },
   {
-    name: "John Smith",
-    role: "Founder @ Startup",
+    name: "John Mugo",
+    role: "Engineering Manager @ ",
     content:
-      "Another testimonial. Keep these genuine and specific — mention the work you did together and the value you brought.",
+      "Collaborating with her on frontend initiatives was highly effective — she communicates clearly, iterates efficiently, and produces well structured UI code that is straightforward to maintain and extend.",
   },
-  {
-    name: "Alex Johnson",
-    role: "Engineering Manager @ Agency",
-    content:
-      "A third testimonial. You can add or remove entries here; the section adapts to however many you provide.",
-  },
+  
 ];
