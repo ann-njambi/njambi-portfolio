@@ -52,43 +52,21 @@ export { PROJECTS } from "./projects";
 // available icons (e.g. "docker", "aws", "go", "rust", "kubernetes", ...).
 export const SKILLS = [
   // Frontend
-  "html",
-  "css",
-  "js",
-  "ts",
+  "python",
+  "typescript",
+  "javascript",
   "react",
   "nextjs",
-  "vue",
-  "nuxtjs",
-  "tailwind",
-  // Backend
   "nodejs",
-  "express",
-  "graphql",
-  "prisma",
-  // Databases
-  "mongodb",
-  "mysql",
   "postgresql",
-  "firebase",
-  "supabase",
-  // Languages
-  "c",
-  "cpp",
-  "java",
-  "py",
-  // Tools & DevOps
+  "sql",
+  "pandas",
+  "numpy",
+  "scikitlearn",
+  "pytorch",
+  "tensorflow",
   "git",
-  "github",
-  "vscode",
-  "postman",
-  "vite",
-  "npm",
-  "figma",
-  "md",
-  // Cloud & Deployment
-  "vercel",
-  "githubactions",
+  "docker",
 ];
 
 export const EXPERIENCE = [

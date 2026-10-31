@@ -13,22 +13,25 @@ export const PROJECTS = [
   // Project One
   // =============================================
   {
-    name: "Project One",
-    tagline: "A one-line description of what this project does.",
+    name: "BiasharaCredit",
+    tagline: "A full-stack loan origination and credit assessment platform for SMEs..",
     overview:
-      "Write the story behind this project — what problem it solves, why you built it, and what makes it interesting. This shows up when the project is expanded on the home page.",
+      "Small businesses often struggle to access credit because traditional banks rely on outdated, manual processes. I built a full-stack lending platform that allows SMEs to apply for loans digitally, upload financial documents, and receive credit assessments. The system includes a customer portal for applications and an administrative dashboard for credit officers to review, score, and approve loans replacing manual paperwork with a streamlined digital workflow.",
     description:
-      "A longer, more detailed description of the project. Cover the core idea, the main features, and the value it delivers to users. This text is used on the dedicated project page and in its metadata.",
+      "BiasharaCredit is a full-stack web application designed to streamline the SME lending process. It features a secure customer portal where business owners can submit loan applications, upload supporting documents, and track their approval status. For the lending institution, the platform provides a comprehensive administrative dashboard with automated credit scoring, financial ratio analysis, and status tracking. The system handles role-based authentication, ensuring customers only see their own data while credit officers can manage the entire portfolio.",
     tech: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "PostgreSQL",
-      "Prisma",
-      "shadcn/ui",
+    "React",
+    "JavaScript",
+    "Tailwind CSS",
+    "Python",
+    "Django",
+    "Django REST Framework",
+    "SQLite",
+    "JWT Authentication",
+    "Recharts",
     ],
     link: "https://example.com",
-    github: "https://github.com/your-github/project-one",
+    github: "https://github.com/ann-njambi/sme-loan-system",
     images: {
       hero: "/placeholder-image.png",
       gallery: [
@@ -55,47 +58,43 @@ export const PROJECTS = [
       ],
     },
     features: [
-      "List a key feature of your project here",
-      "Each item becomes a bullet on the project page",
-      "Keep them short and benefit-focused",
-      "Add or remove as many as you need",
-      "Authentication and authorization",
-      "Responsive, accessible UI",
+      "Role-based authentication (Credit Officers vs. SME Customers)",
+    "Digital loan application with document upload",
+    "Automated credit scoring and risk band calculation",
+    "Admin dashboard with Recharts data visualization",
+    "PDF generation for formal loan agreements",
+    "Search and filtering for loan applications",
     ],
     technicalDetails: [
       {
         title: "Architecture Highlight",
         description:
-          "Explain an interesting technical decision — how you structured the app, a tricky integration, or a performance optimization you're proud of.",
+          "Built with a decoupled architecture: a React frontend for the user interface and a Django REST Framework backend for the API and business logic. This separation ensures the platform is fast, scalable, and secure.",
       },
       {
-        title: "Data Layer",
+        title: "Data Layer & Security",
         description:
-          "Describe how you handle data: the database, the ORM, caching strategy, and how you keep things fast and consistent.",
+          "Utilizes SQLite for development with Django ORM. Security is enforced using JWT (JSON Web Tokens) to protect API endpoints, ensuring only authorized users can access sensitive financial data.",
       },
       {
-        title: "Another Detail",
+        title: "PDF & Document Management",
         description:
-          "Add as many technical detail blocks as you want. Each one renders as a titled paragraph on the project page.",
+          "Implemented server-side PDF generation using ReportLab to dynamically create loan agreements based on approved amounts and interest rates. Customers can upload bank statements and tax returns directly through the portal",
       },
     ],
     challenges: [
       {
-        problem: "Describe a challenge you ran into while building this.",
+        problem: "Ensuring customers couldn't see other applicants' financial data.",
         solution:
-          "Explain how you solved it — the approach you took and why it worked.",
+          "Implemented strict data filtering at the backend level. The Django API checks the JWT token and filters the database query so a customer only ever receives their own loan records, while Admins receive the full portfolio.",
       },
-      {
-        problem: "Another problem worth highlighting.",
-        solution:
-          "The solution you landed on. These pairs show off your problem-solving.",
-      },
+     
     ],
     metrics: {
-      users: "1,000+",
-      uptime: "99.9%",
-      loadTime: "< 1s",
-      stars: "120+",
+   users: "N/A (Internal Tool)",
+    uptime: "99.9%",
+    loadTime: "< 1s",
+    stars: "1+" 
     },
   },
 
